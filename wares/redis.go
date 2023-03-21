@@ -7,8 +7,7 @@ import (
 	"time"
 
 	"github.com/panjiang/redisbench/config"
-
-	"github.com/go-redis/redis/v8"
+	"github.com/redis/go-redis/v9"
 )
 
 // NewUniversalRedisClient Creates a new universal redis client, no matter single instance or redis cluster

@@ -6,17 +6,15 @@ import (
 	"os"
 	"time"
 
-	"github.com/rs/zerolog"
-	"github.com/rs/zerolog/log"
-
 	"github.com/panjiang/redisbench/config"
 	"github.com/panjiang/redisbench/internal/datasize"
 	"github.com/panjiang/redisbench/models"
 	"github.com/panjiang/redisbench/tester"
 	"github.com/panjiang/redisbench/utils"
 	"github.com/panjiang/redisbench/wares"
-
-	"github.com/go-redis/redis/v8"
+	"github.com/redis/go-redis/v9"
+	"github.com/rs/zerolog"
+	"github.com/rs/zerolog/log"
 )
 
 func init() {
